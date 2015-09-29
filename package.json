@@ -5,7 +5,7 @@
   "version": "3.20.4",
   "repository": {
     "type": "git",
-    "url": "https://github.com/prerender/prerender"
+    "url": "https://github.com/jahmad-fareportal/prerender"
   },
   "dependencies": {
     "aws-sdk": "^2.1.8",
@@ -17,5 +17,8 @@
   },
   "bin": {
     "prerender": "server.js"
+  },
+  "scripts": {
+    "start": "node server.js"
   }
 }
